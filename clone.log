@@ -1,0 +1,12 @@
+14:55:33.593424 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/bin
+14:55:33.594422 git.c:439               trace: built-in: git clone https://gitserver/repo.git
+14:55:33.616363 run-command.c:663       trace: run_command: git remote-https origin https://gitserver/repo.git
+Cloning into 'repo'...
+14:55:33.630326 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+14:55:33.631323 git.c:703               trace: exec: git-remote-https origin https://gitserver/repo.git
+14:55:33.631323 run-command.c:663       trace: run_command: git-remote-https origin https://gitserver/repo.git
+14:55:33.668242 exec-cmd.c:237          trace: resolved executable dir: C:/Program Files/Git/mingw64/libexec/git-core
+* Couldn't find host gitserver in the .netrc file; using defaults
+* Could not resolve host: gitserver
+* Closing connection 0
+fatal: unable to access 'https://gitserver/repo.git/': Could not resolve host: gitserver
